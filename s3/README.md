@@ -2,18 +2,7 @@
 
 [<- Back to list](../README.md)
 
-In this demo we will:
-* create S3 Bucket
-* upload index.html file
-* check his visibility
-* make it public
-* upload logo
-* enable versioning
-* upload modified index.html
-* check versioning status
-
 ## Create S3 Bucket
-
 > aws cloudformation create-stack --stack-name s3-demo --template-body file://s3.yml --profile \<PROFILE>
 
 ## Upload index.html
@@ -37,4 +26,5 @@ Open the local index.html and change the image name, upload it again, refresh th
 ## Analyze versioning
 With the "List versions" option enabled analyze how versioning works
 
+## Clean environment
 Delete files and CloudFormation stack
