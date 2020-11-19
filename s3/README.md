@@ -3,7 +3,9 @@
 [<- Back to list](../README.md)
 
 ## Create S3 Bucket
-> aws cloudformation create-stack --stack-name s3-demo --template-body file://s3.yml --profile \<PROFILE>
+```
+aws cloudformation create-stack --stack-name s3-demo --template-body file://s3.yml --profile \<PROFILE>
+```
 
 ## Upload index.html
 From the console upload the index.html file
@@ -27,4 +29,4 @@ Open the local index.html and change the image name, upload it again, refresh th
 With the "List versions" option enabled analyze how versioning works
 
 ## Clean environment
-Delete files and CloudFormation stack
+Delete files from S3 Bucket and delete the CloudFormation stack
