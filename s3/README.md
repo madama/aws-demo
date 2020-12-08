@@ -5,7 +5,7 @@
 ## Create S3 Bucket
 You can use CloudFormation
 ```
-aws cloudformation create-stack --stack-name s3-demo --template-body file://s3.yml --profile \<PROFILE>
+aws cloudformation create-stack --stack-name s3-demo --template-body file://s3.yml --profile <PROFILE>
 ```
 or the console, in this case leave the default settings, once created enable the website hosting
 
