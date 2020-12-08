@@ -7,3 +7,5 @@ Here some demo used in the User Group meeting or training
 
 [IAM](iam/README.md)
 
+[VPC](vpc/README.md)
+
